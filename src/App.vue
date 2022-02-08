@@ -28,4 +28,8 @@ export default {
   width: 1080px;
   max-width: 100%;
 }
+
+a {
+  text-decoration: none;
+}
 </style>
