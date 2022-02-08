@@ -41,8 +41,10 @@ export default {
 </script>
 
 <style lang="scss">
-img {
-  height: 70px;
+figure {
+  img {
+    height: 70px;
+  }
 }
 
 nav {
