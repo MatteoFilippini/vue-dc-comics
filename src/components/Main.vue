@@ -1,7 +1,9 @@
 <template>
   <main>
     <section id="content">
-      <p>content</p>
+      <div class="container">
+        <p>content</p>
+      </div>
     </section>
     <Menu />
   </main>

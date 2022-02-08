@@ -1,6 +1,8 @@
 <template>
   <footer>
-    <div class="footer-links"></div>
+    <div class="footer-links">
+      <div class="container">lista</div>
+    </div>
     <FooterNavbar />
   </footer>
 </template>

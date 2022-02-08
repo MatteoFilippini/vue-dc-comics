@@ -1,21 +1,23 @@
 <template>
   <header>
-    <nav>
-      <figure>
-        <img src="../assets/img/dc-logo.png" alt="" />
-      </figure>
-      <ul>
-        <li
-          v-for="link in links"
-          :key="link.text"
-          :class="{ active: link.active }"
-        >
-          <a :href="link.url" :class="{ active: link.active }">{{
-            link.text
-          }}</a>
-        </li>
-      </ul>
-    </nav>
+    <div class="container">
+      <nav>
+        <figure>
+          <img src="../assets/img/dc-logo.png" alt="" />
+        </figure>
+        <ul>
+          <li
+            v-for="link in links"
+            :key="link.text"
+            :class="{ active: link.active }"
+          >
+            <a :href="link.url" :class="{ active: link.active }">{{
+              link.text
+            }}</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
   </header>
 </template>
 

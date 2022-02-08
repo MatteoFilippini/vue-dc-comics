@@ -1,42 +1,44 @@
 <template>
   <div class="footer-navbar">
-    <nav>
-      <div class="btn-sign">
-        <p>SIGN IN</p>
-      </div>
-      <div class="footer-icons">
-        <ul>
-          <li>
-            <a href="#">FOLLOW US</a>
-          </li>
-          <li>
-            <a href="#"
-              ><img src="../assets/img/footer-facebook.png" alt=""
-            /></a>
-          </li>
-          <li>
-            <a href="#"
-              ><img src="../assets/img/footer-twitter.png" alt=""
-            /></a>
-          </li>
-          <li>
-            <a href="#"
-              ><img src="../assets/img/footer-youtube.png" alt=""
-            /></a>
-          </li>
-          <li>
-            <a href="#"
-              ><img src="../assets/img/footer-pinterest.png" alt=""
-            /></a>
-          </li>
-          <li>
-            <a href="#"
-              ><img src="../assets/img/footer-periscope.png" alt=""
-            /></a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+    <div class="container">
+      <nav>
+        <div class="btn-sign">
+          <p>SIGN IN</p>
+        </div>
+        <div class="footer-icons">
+          <ul>
+            <li>
+              <a href="#">FOLLOW US</a>
+            </li>
+            <li>
+              <a href="#"
+                ><img src="../assets/img/footer-facebook.png" alt=""
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img src="../assets/img/footer-twitter.png" alt=""
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img src="../assets/img/footer-youtube.png" alt=""
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img src="../assets/img/footer-pinterest.png" alt=""
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img src="../assets/img/footer-periscope.png" alt=""
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
   </div>
 </template>
 

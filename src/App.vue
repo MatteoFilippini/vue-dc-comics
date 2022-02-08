@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div>
     <Header />
     <Main />
     <Footer />
@@ -21,6 +21,10 @@ export default {
 </script>
 
 <style lang="scss">
+body {
+  height: 100vh;
+}
+
 * {
   margin: 0;
   padding: 0;
