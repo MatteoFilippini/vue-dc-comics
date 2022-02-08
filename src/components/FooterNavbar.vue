@@ -59,4 +59,10 @@ ul {
 img {
   font-size: 30px;
 }
+
+.btn-sign p {
+  border: 1px solid blue;
+  padding: 7px;
+  cursor: pointer;
+}
 </style>
