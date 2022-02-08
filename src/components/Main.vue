@@ -3,13 +3,17 @@
     <section id="content">
       <p>content</p>
     </section>
-    <section></section>
+    <Menu />
   </main>
 </template>
 
 <script>
+import Menu from "./Menu.vue";
 export default {
   name: "Main",
+  components: {
+    Menu,
+  },
 };
 </script>
 
