@@ -7,7 +7,7 @@
 
 <script>
 export default {
-  name: "Image",
+  name: "Cover",
   props: ["url", "title"],
 };
 </script>

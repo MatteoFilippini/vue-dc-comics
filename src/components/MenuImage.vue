@@ -2,7 +2,7 @@
   <section id="content">
     <div class="container">
       <div class="container-card">
-        <Image
+        <Cover
           v-for="(image, index) in images"
           :key="index"
           :url="image.thumb"
@@ -14,11 +14,11 @@
 </template>
 
 <script>
-import Image from "./Image.vue";
+import Cover from "./Cover.vue";
 export default {
   name: "ManuImage",
   components: {
-    Image,
+    Cover,
   },
   data() {
     return {
