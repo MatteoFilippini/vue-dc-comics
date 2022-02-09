@@ -43,17 +43,16 @@ export default {
 </script>
 
 <style lang="scss">
-figure {
-  img {
-    height: 70px;
-  }
-}
-
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px 0;
+  figure {
+    img {
+      height: 70px;
+    }
+  }
 }
 
 ul {
