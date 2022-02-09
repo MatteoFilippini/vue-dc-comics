@@ -2,18 +2,24 @@
   <section id="content">
     <div class="container">
       <div class="container-card">
-        <div class="card-image" v-for="(image, index) in images" :key="index">
-          <img :src="image.thumb" :alt="image.series" />
-          <h4>{{ image.series }}</h4>
-        </div>
+        <Image
+          v-for="(image, index) in images"
+          :key="index"
+          :url="image.thumb"
+          :title="image.series"
+        />
       </div>
     </div>
   </section>
 </template>
 
 <script>
+import Image from "./Image.vue";
 export default {
   name: "ManuImage",
+  components: {
+    Image,
+  },
   data() {
     return {
       images: [
@@ -108,15 +114,16 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+#content {
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 30px;
+}
+
 .container-card {
   display: flex;
   flex-wrap: wrap;
-  .card-image {
-    margin: 10px;
-    img {
-      height: 200px;
-      width: 200px;
-    }
-  }
 }
 </style>

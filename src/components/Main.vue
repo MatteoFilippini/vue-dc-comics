@@ -18,11 +18,4 @@ export default {
 </script>
 
 <style>
-#content {
-  background-color: black;
-  color: white;
-  display: flex;
-  align-items: center;
-  padding: 30px;
-}
 </style>
