@@ -14,10 +14,12 @@ export default {
 
 <style lang="scss" scoped>
 .card-image {
-  margin: 10px;
+  margin: 20px;
+  height: 200px;
+  flex-basis: calc(100% / 6);
   img {
-    height: 200px;
-    width: 200px;
+    height: 100%;
+    width: 100%;
   }
 }
 </style>
